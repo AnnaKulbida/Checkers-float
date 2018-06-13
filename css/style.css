@@ -1,0 +1,70 @@
+.checkers-board {
+  width: 100%;
+  max-width: 440px;
+  height: 440px;
+  margin: 0 auto;
+  margin-top: 95px;
+  border: 1px solid;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  background-color: #e3c5ab;
+  box-sizing: border-box;
+}
+
+.border-board {
+  border: 1px solid;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.line-odd {
+  height: 50px;
+}
+
+.line-odd .one {
+  width: 12.5%;
+  height: 50px;
+  float: left;
+  background-color: black;
+}
+
+.line-odd .two,
+.line-odd .three,
+.line-odd .four {
+  width: 12.5%;
+  height: 50px;
+  float: left;
+  margin-left: 50px;
+  background-color: black;
+}
+
+.line-even .one,
+.line-even .two,
+.line-even .three, .four {
+  width: 12.5%;
+  height: 50px;
+  float: left;
+  margin-left: 50px;
+  background-color: black;
+}
+
+.checker-red {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 6px;
+  border: 1px solid #ffffff;
+  background-color: #b63635;
+  border-radius: 50%;
+}
+
+.checker-black {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 6px;
+  border: 1px solid #ffffff;
+  background-color: #292524;
+  border-radius: 50%;
+}
